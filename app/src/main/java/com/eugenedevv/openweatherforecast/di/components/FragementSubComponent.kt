@@ -9,6 +9,7 @@ import dagger.Subcomponent
 /**
  * Created by EugeneDevv on 09/10/2022.
  */
+
 @FragmentScope
 @Subcomponent(modules = [ViewModelModule::class])
 interface FragmentSubComponent {

@@ -1,5 +1,6 @@
 package com.eugenedevv.openweatherforecast.presentation.forecast
 
+
 import android.Manifest
 import android.app.SearchManager
 import android.content.Context
@@ -21,11 +22,11 @@ import com.eugenedevv.openweatherforecast.App
 import com.eugenedevv.openweatherforecast.common.Constants
 import com.eugenedevv.openweatherforecast.common.DateTimeConversion
 import com.eugenedevv.openweatherforecast.common.GeocodeConverter
+import com.eugenedevv.openweatherforecast.R
 import com.eugenedevv.openweatherforecast.data.local.entities.LocationEntity
 import com.eugenedevv.openweatherforecast.databinding.CurrentWeatherForecastFragmentBinding
 import com.eugenedevv.openweatherforecast.presentation.BaseFragment
 import com.eugenedevv.openweatherforecast.presentation.MainActivity
-import com.eugenedevv.openweatherforecast.R
 import com.eugenedevv.openweatherforecast.presentation.extension.hide
 import com.eugenedevv.openweatherforecast.presentation.extension.show
 import com.eugenedevv.openweatherforecast.presentation.extension.snackBar

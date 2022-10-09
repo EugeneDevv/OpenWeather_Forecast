@@ -71,11 +71,11 @@ class CurrentWeatherForecastViewModel @AssistedInject constructor(
                     return@switchMap searchForecast.byCityNameForecast(it)
                         .andThen(Observable.just(Unit))
                         .onErrorComplete { error ->
-                            Timber.e(error)
-                            errorMessage.postValue(error.localizedMessage)
-                            isLoading.postValue(false)
-                            true
-                        }
+                                Timber.e(error)
+                                errorMessage.postValue(error.localizedMessage)
+                                isLoading.postValue(false)
+                                true
+                            }
                 }.subscribe({
                     isLoading.postValue(false)
                 }, { error ->

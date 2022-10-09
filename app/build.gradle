@@ -11,7 +11,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.didahdx.weatherforecast"
+        applicationId "com.eugenedevv.openweatherforecast"
         minSdk 21
         targetSdk 31
         versionCode 1
@@ -84,8 +84,9 @@ dependencies {
     implementation "org.apache.commons:commons-lang3:3.12.0"
 
     //dagger
-    implementation "com.google.dagger:dagger:2.38.1"
-    kapt "com.google.dagger:dagger-compiler:2.38.1"
+    def dagger_version = "2.38.1"
+    implementation "com.google.dagger:dagger:$dagger_version"
+    kapt "com.google.dagger:dagger-compiler:$dagger_version"
 
     //room db
     def roomVersion = "2.4.1"

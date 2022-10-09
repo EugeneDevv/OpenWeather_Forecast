@@ -3,6 +3,7 @@ package com.eugenedevv.openweatherforecast.data.local
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
+import com.eugenedevv.openweatherforecast.data.local.dao.CurrentWeatherDao
 import com.eugenedevv.openweatherforecast.data.local.dao.DailyWeatherDao
 import com.eugenedevv.openweatherforecast.data.local.dao.HourlyWeatherDao
 import com.eugenedevv.openweatherforecast.data.local.dao.LocationDao
