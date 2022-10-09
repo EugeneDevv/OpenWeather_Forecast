@@ -5,12 +5,12 @@
     android:layout_height="match_parent"
     tools:context=".presentation.weatherDetailsTabDay.DayWeatherDetailsFragment">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_weather"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:listitem="@layout/item_weather_details"
-        />
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/rv_weather"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       tools:listitem="@layout/item_weather_details"
+       />
 
     <ProgressBar
         android:layout_width="wrap_content"

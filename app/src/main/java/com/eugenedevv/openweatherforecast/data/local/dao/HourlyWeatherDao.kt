@@ -2,7 +2,7 @@ package com.eugenedevv.openweatherforecast.data.local.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
-import androidx.room.OnConflictStrategy
+import androidx.room.OnConflictStrategy.REPLACE
 import androidx.room.Query
 import com.eugenedevv.openweatherforecast.data.local.entities.HourlyEntity
 import io.reactivex.rxjava3.core.Completable
@@ -14,7 +14,7 @@ import io.reactivex.rxjava3.core.Observable
 @Dao
 interface HourlyWeatherDao {
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    @Insert(onConflict = REPLACE)
     fun addAllHourlyEntity(hourlyEntity: List<HourlyEntity>): Completable
 
     @Query("SELECT * FROM HourlyEntity LIMIT 24")
