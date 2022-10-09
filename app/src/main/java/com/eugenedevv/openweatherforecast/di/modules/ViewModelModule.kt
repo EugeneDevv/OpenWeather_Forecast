@@ -1,7 +1,10 @@
 package com.eugenedevv.openweatherforecast.di.modules
 
 import androidx.lifecycle.ViewModel
+import com.eugenedevv.openweatherforecast.di.AssistedSavedStateViewModelFactory
 import com.eugenedevv.openweatherforecast.di.ViewModelKey
+import com.eugenedevv.openweatherforecast.presentation.forecast.CurrentWeatherForecastViewModel
+import com.eugenedevv.openweatherforecast.presentation.weatherDetailsTabDay.DayWeatherDetailsViewModel
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap

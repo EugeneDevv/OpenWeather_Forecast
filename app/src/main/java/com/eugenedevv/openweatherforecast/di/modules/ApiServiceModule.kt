@@ -1,6 +1,17 @@
 package com.eugenedevv.openweatherforecast.di.modules
 
 import android.app.Application
+import com.eugenedevv.openweatherforecast.common.Constants
+import com.eugenedevv.openweatherforecast.common.Constants.GEOCODING_API
+import com.eugenedevv.openweatherforecast.common.Constants.WEATHER_API
+import com.eugenedevv.openweatherforecast.data.local.dao.CurrentWeatherDao
+import com.eugenedevv.openweatherforecast.data.local.dao.DailyWeatherDao
+import com.eugenedevv.openweatherforecast.data.local.dao.HourlyWeatherDao
+import com.eugenedevv.openweatherforecast.data.local.dao.LocationDao
+import com.eugenedevv.openweatherforecast.data.remote.api.GeocodingApi
+import com.eugenedevv.openweatherforecast.data.remote.api.WeatherForecastApi
+import com.eugenedevv.openweatherforecast.data.repository.WeatherForecastRepositoryImpl
+import com.eugenedevv.openweatherforecast.domain.repository.WeatherForecastRepository
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import dagger.Module

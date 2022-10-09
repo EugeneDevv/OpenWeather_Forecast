@@ -2,6 +2,8 @@ package com.eugenedevv.openweatherforecast.di.modules
 
 import android.app.Application
 import androidx.room.Room
+import com.eugenedevv.openweatherforecast.common.Constants
+import com.eugenedevv.openweatherforecast.data.local.WeatherDatabase
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
