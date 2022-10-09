@@ -4,6 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/font/fontm.xml" value="0.13333333333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.11296296296296296" />
+        <entry key="app/src/main/res/layout/current_weather_forecast_fragment.xml" value="0.11296296296296296" />
+        <entry key="app/src/main/res/layout/day_weather_details_fragment.xml" value="0.11296296296296296" />
+        <entry key="app/src/main/res/layout/item_weather_details.xml" value="0.11296296296296296" />
+        <entry key="app/src/main/res/menu/search_menu.xml" value="0.11296296296296296" />
         <entry key="app/src/main/res/xml/seachable.xml" value="0.11296296296296296" />
         <entry key="app/src/main/res/xml/searchable.xml" value="0.11296296296296296" />
       </map>

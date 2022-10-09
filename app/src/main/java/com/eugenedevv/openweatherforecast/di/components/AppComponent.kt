@@ -1,6 +1,10 @@
 package com.eugenedevv.openweatherforecast.di.components
 
 import android.app.Application
+import com.eugenedevv.openweatherforecast.App
+import com.eugenedevv.openweatherforecast.di.modules.ApiServiceModule
+import com.eugenedevv.openweatherforecast.di.modules.CommonUiModule
+import com.eugenedevv.openweatherforecast.di.modules.WeatherDatabaseModule
 import dagger.BindsInstance
 import dagger.Component
 import javax.inject.Singleton
